@@ -62,7 +62,11 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
             <path id="pathSearch" fill-rule="evenodd"></path>
         </svg>
     </a>
-    
+    <a href="https://hrenact.booth.pm/" class="btn btn-invisible circle" title="shopping_cart" target="_blank">
+        <svg class="octicon" width="16" height="16" >
+            <path id="shopping_cart" fill-rule="evenodd"></path>
+        </svg>
+    </a>
     
     <a href="https://hrenact.github.io/rss.xml" target="_blank" id="buttonRSS" class="btn btn-invisible circle" title="RSS">
         <svg class="octicon" width="16" height="16" >
@@ -87,7 +91,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     </div>
     <div class="listLabels">
         
-        <span class="Label LabelName" style="background-color:#0075ca"><object><a style="color:#fff" href="tag.html#中文咖啡厅">中文咖啡厅</a></object></span><span class="Label LabelName" style="background-color:#B8F58B"><object><a style="color:#fff" href="tag.html#VRChat">VRChat</a></object></span>
+        <span class="Label LabelName" style="background-color:#0075ca"><object><a style="color:#fff" href="tag.html#中文咖啡厅">中文咖啡厅</a></object></span><span class="Label LabelName" style="background-color:#526134"><object><a style="color:#fff" href="tag.html#VRChat">VRChat</a></object></span>
         <span class="Label LabelTime" style="background-color:#bc4c00">2024-07-15</span>
     </div>
 </a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/%E3%80%90-zhong-wen-ka-fei-ting-%E3%80%91-zan-zhu-ming-dan.html">
@@ -98,7 +102,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     </div>
     <div class="listLabels">
         
-        <span class="Label LabelName" style="background-color:#0075ca"><object><a style="color:#fff" href="tag.html#中文咖啡厅">中文咖啡厅</a></object></span><span class="Label LabelName" style="background-color:#B8F58B"><object><a style="color:#fff" href="tag.html#VRChat">VRChat</a></object></span>
+        <span class="Label LabelName" style="background-color:#0075ca"><object><a style="color:#fff" href="tag.html#中文咖啡厅">中文咖啡厅</a></object></span><span class="Label LabelName" style="background-color:#526134"><object><a style="color:#fff" href="tag.html#VRChat">VRChat</a></object></span>
         <span class="Label LabelTime" style="background-color:#bc4c00">2024-07-15</span>
     </div>
 </a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/zai-%20issue%20-zhong-tian-jia-qiang-diao-guan-jian-xin-xi.html">
@@ -121,9 +125,9 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </p>
 
 <script>
-if(""!=""){
+if("07/15/2024"!=""){
     var now=new Date();
-    var startSite=new Date("");
+    var startSite=new Date("07/15/2024");
     var diff=now.getTime()-startSite.getTime();
     var diffDay=Math.floor(diff/(1000*60*60*24));
     document.getElementById("year").innerHTML=now.getFullYear();
@@ -179,6 +183,7 @@ for(var i=0;i<iconPost.length;i++){
 }
 
 
+document.getElementById("shopping_cart").setAttribute("d",value=IconList["shopping_cart"]);
 
 
 </script>
