@@ -17,10 +17,25 @@ Booth：https://s-ilent.booth.pm/items/3250389
 
 Booth：https://s-ilent.booth.pm/items/2336731
 
+# Clear Water 2
+用于制作水面，拥有不错的视觉效果。
+
+Booth：https://s-ilent.booth.pm/items/2577099
+
+# SkyProbe Fog 【未查证】
+更好的雾气效果，用于表现大气散射的效果。
+
+Booth：https://s-ilent.booth.pm/items/2560551
+
 # Xiexe's Unity Shaders 【不兼容 Android】
 通过 Mask 和叠 Pass 的手段来表现出毛绒效果，特殊情况下对性能有较大影响。
 
 Booth：https://xiexe.booth.pm/items/1084711
+
+# AKSlideShow 【不兼容 Android】
+轮流播放你在 Shader 内放入的图片，并且拥有较多配置项，适合制作广告牌。
+
+Booth：https://kamishirolab.booth.pm/items/2483104
 
 # QvPen
 画笔，几乎必备的世界功能。
