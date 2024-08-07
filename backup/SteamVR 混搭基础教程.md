@@ -33,11 +33,11 @@ Index Knuckle 指虎 | 无 | 无 | Type-C
 # 配件注意
 
 HTC 1.0 基站在除了供电接口外，还有一个特殊的接口为“同步线接口”。在特殊情况导致基站无法同步时，可以通过在基站之间连接“同步数据线”来恢复同步。
-购买 Tracker 或 指虎 时，需注意是否包含接收器。如不包含，你需要单独购买或者使用数据线连电脑才能定位。
+购买 Tracker 或 指虎 时，需注意是否包含接收器。如不包含，你需要单独购买或者使用数据线连接电脑才能定位。
 
 # 安装基站
 
-这里将使用字符粗略的演示基站如何安装。其中，箭头代表了基站的朝向。
+这里将使用图像粗略的演示基站应如何安装。
 
 房间规模：
 
@@ -80,6 +80,8 @@ Controller Pairing：
 
 下载并安装软件 [OpenVR-SpaceCalibrator](https://github.com/hyblocker/OpenVR-SpaceCalibrator/releases/tag/v1.5)，或者选择它的汉化版 [OpenVR-SpaceCalibrator-CN](https://github.com/Hrenact/OpenVR-SpaceCalibrator-CN/releases/tag/v1.5.1)。此教程使用汉化版来演示。
 
+如果你安装的原始版本为 v1.5 ，你可以参照此教程中的汉化版截图来操作。
+
 打开 SteamVR ，确认你的头戴设备已连接至 SteamVR 。OpenVR-SpaceCalibrator 会跟随 SteamVR 一并启动，如果没有，请手动双击桌面的快捷方式来开启。
 
 软件界面：
@@ -101,7 +103,7 @@ Controller Pairing：
 
 `Gmeek-html<img src="https://hrenact.github.io/P4Right.png">`
 
-选择合适的“校准速度”，此选项仅影响手动校准时校准的时长。越长的校准时长意味着越多的校准数据，也意味着越准确和不容易发生偏移。
+选择合适的“校准速度”，此选项仅影响手动校准时校准的时长。越长的校准时长意味着越多的校准数据，也意味着位置越准确。
 
 将你选择的设备握紧在一起，确保在校准过程中它们的相对位置不会发生偏移。
 
