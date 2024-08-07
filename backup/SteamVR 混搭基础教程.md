@@ -7,7 +7,7 @@
 
 # 基站兼容
 
-基站版本 | HTC 1.0 Traker | HTC 2.0 Traker | HTC 3.0 Traker | N7R Tundra Tracker | Index 指虎
+基站版本 | HTC 1.0 Traker | HTC 2.0 Traker | HTC 3.0 Traker | N7R Tundra Tracker | Index Knuckle 指虎
 -- | -- | -- | -- | -- | --
 HTC 1.0 基站 | √ | √ | × | √ | √
 HTC 2.0 基站 | × | √ | √ | √ | √
@@ -22,7 +22,7 @@ HTC 1.0 Traker | 1/4 英寸螺丝口 | 底面 | Micro USB
 HTC 2.0 Traker | 1/4 英寸螺丝口 | 底面 | Micro USB
 HTC 3.0 Traker | 1/4 英寸螺丝口 | 底面 | Type-C
 N7R Tundra Tracker | 可更换式 1/4 英寸螺丝口 | 底面 | Type-C
-Index 指虎 | 无 | 无 | Type-C
+Index Knuckle 指虎 | 无 | 无 | Type-C
 
 > [!NOTE]
 > 表格中的“1/4 英寸螺丝口”为英制单位。如果你担心，可以直接搜索“1/4 相机螺丝口”。
@@ -63,7 +63,7 @@ HTC 1.0 基站在除了供电接口外，还有一个特殊的接口为“同步
 - 将基站安装在房间高处并向下倾斜 20度 至 45度
 - 避免基站照射范围出现高反射率物体（例：镜子）
 
-> [!WARING]
+> [!WARNING]
 > 在基站通电时请勿大幅度移动或磕碰基站，这可能会导致基站损坏！
 
 # 添加设备
@@ -137,12 +137,12 @@ HTC 1.0 基站在除了供电接口外，还有一个特殊的接口为“同步
 
 此时，你的 PCVR 设备在 SteamVR 界面的位置将会与现实位置同步。
 
-> [!WARING]
+> [!WARNING]
 > 如果未出现“Finshed calibration, profile saved”而是其它字样，则为校准失败，你应该点击“Close”按钮并重新校准。
 
 # 连续校准
 
-连续校准需要将“主设备”选择为一体机的左或者右手柄，并将“副设备”选择为固定在头戴式设备上的 Tracker。
+连续校准需要将“主设备”选择为一体机的头显，并将“副设备”选择为固定在头戴式设备上的 Tracker。
 
 以 Quest 2 和 Pico 4 举例：
 ```
@@ -185,3 +185,20 @@ HTC 1.0 基站在除了供电接口外，还有一个特殊的接口为“同步
 
 > [!NOTE]
 > 目标设备的 Tracker 名称会因实际型号而异，演示型号为 HTC 3.0 Traker 。如果你怕选错设备，可以暂时只开启连续校准用 Tracker ，配置好连续校准参数后再逐一开启其它设备。
+> 使用连续校准方案时，VRChat 会默认打开 FBT 支持模式。如有需要，你可以在小设置菜单中关闭它。
+
+# 额外推荐
+
+这里会陈列一些对混搭玩家有用的商品链接。如果无法访问，请粘贴到手机浏览器后进行访问。
+
+- USB 拓展坞：
+https://m.tb.cn/h.gkkbKa9mUFLfbu9?tk=22ws33ZTMlB
+
+- 多设备充电坞：
+https://m.tb.cn/h.gPQ2Lsg3TPBAPKb?tk=lw7b33Z5oLx
+
+- Type-C 充电线：
+https://m.tb.cn/h.gPQV8uuwNlWcMFA?tk=O3BX33ZSYoj
+
+- 一体机 Tracker 固定底座：
+https://m.tb.cn/h.gkke7vI?tk=JAch33ZQ0IQ
