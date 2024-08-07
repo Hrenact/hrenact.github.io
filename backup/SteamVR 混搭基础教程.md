@@ -43,25 +43,9 @@ HTC 1.0 基站在除了供电接口外，还有一个特殊的接口为“同步
 
 `Gmeek-html<img src="https://hrenact.github.io/RoomMode.drawio.png">`
 
-```
-┌──────────────┐
-门           ↙│
-门             │
-│    床床床   电│
-│衣  床床床   脑│
-│柜↗床床床   桌│
-└──────────────┘
-```
-
 客厅规模：
-```
-↘
-   ┌┄┄┄┄┐
-   ┆游玩┆
-   ┆区域┆
-   └┄┄┄┄┘
-           ↖
-```
+
+`Gmeek-html<img src="https://hrenact.github.io/LivingroomMode.drawio.png">`
 
 总之，我们按照以下几点摆放基站即可：
 - 按照对角线摆放基站
