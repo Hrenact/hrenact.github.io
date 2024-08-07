@@ -2,7 +2,7 @@
 
 - 至少一个 HTC 1.0 / 2.0 / 3.0 Tracker 或 N7R Tundra Tracker （即连续校准用 Tracker）
 - 至少一个 HTC 1.0 / 2.0 基站
-- 你想要混搭的 PCVR 设备以及对应数量的 接收器 / 加密狗
+- 你想要混搭的 PCVR 设备以及对应数量的接收器
 - 软件 OpenVR-SpaceCalibrator 或 OpenVR-SpaceCalibrator-CN
 
 # 基站兼容
@@ -11,6 +11,9 @@
 -- | -- | -- | -- | -- | --
 HTC 1.0 基站 | √ | √ | × | √ | √
 HTC 2.0 基站 | × | √ | √ | √ | √
+
+> [!CAUTION]
+> 虽然 N7R Tundra Tracker 在官网标明支持 HTC 1.0 基站，但是这里的支持仅限于能被基站识别。要达到稳定的追踪效果需要非常苛刻的条件，笔者并不推荐！
 
 # 设备规格
 
@@ -27,10 +30,10 @@ Index Knuckle 指虎 | 无 | 无 | Type-C
 > [!NOTE]
 > 表格中的“1/4 英寸螺丝口”为英制单位。如果你担心，可以直接搜索“1/4 相机螺丝口”。
 
-# 闲鱼注意
+# 配件注意
 
 HTC 1.0 基站在除了供电接口外，还有一个特殊的接口为“同步线接口”。在特殊情况导致基站无法同步时，可以通过在基站之间连接“同步数据线”来恢复同步。
-在闲鱼购买 Tracker 或 指虎 时，需注意是否包含 接收器 / 加密狗。如不包含，你需要单独购买或者使用数据线连电脑才能定位。
+购买 Tracker 或 指虎 时，需注意是否包含接收器。如不包含，你需要单独购买或者使用数据线连电脑才能定位。
 
 # 安装基站
 
@@ -68,18 +71,48 @@ HTC 1.0 基站在除了供电接口外，还有一个特殊的接口为“同步
 
 # 添加设备
 
-将 接收器 / 加密狗 插入电脑的 USB 接口，并启动 SteamVR。
+将接收器插入电脑的 USB 2.0 或更高规模的 USB 接口，并启动 SteamVR。
 
 点击 SteamVR 左上角的菜单，打开下拉菜单。将鼠标移动至“设备”，稍做等待，在浮现的窗口中点击“配对控制器”，弹出“选择您的控制器类型”窗口。
+
+```
+≡ SteamVR x.x.x
+┌──────────────┐
+│ ...          │
+│ 设备       ▶ │┌──────────────┐
+│ ...          ││ ...          │
+└──────────────┘│ 配对控制器    │
+                │ ...          │
+                └──────────────┘
+```
+
+Controller Pairing：
+
+```
+选择您的控制器类型
+
+┌──────────────┐       ┌──────────────┐
+│     指虎     │       │  Vive 控制器  │
+└──────────────┘       └──────────────┘
+Valve Index 控制器      HTC Vive 控制器
+
+┌──────────────┐       ┌──────────────┐
+│   Tracker    │       │  Ink Pilot   │
+└──────────────┘       └──────────────┘
+HTC Vive追踪器          罗技 VR Ink Pilot Edition
+```
 
 选择对应的设备，按照提示完成配对，成功后将在 SteamVR 界面出现你刚刚添加的设备。
 
 > [!NOTE]
 > 你可以先只添加一个 Tracker ，方便在连续校准章节中快速找到需要作为连续校准用的目标设备。
 
+> [!NOTE]
+> 在配对或配对完成后选择“配对另一个控制器”时，如果出现“请关闭您现有控制器中的一个”字样，请检查是否插入了数量充足的接收器并确保接口牢固，当配对的接收器数量被占满时，才会显示此字样。
+
 # 安装软件
 
-下载并安装软件 [OpenVR-SpaceCalibrator](https://github.com/hyblocker/OpenVR-SpaceCalibrator/releases/tag/v1.5)；或者选择它的汉化版 [OpenVR-SpaceCalibrator-CN](https://github.com/Hrenact/OpenVR-SpaceCalibrator-CN/releases/tag/v1.5.1)。
+下载并安装软件 [OpenVR-SpaceCalibrator](https://github.com/hyblocker/OpenVR-SpaceCalibrator/releases/tag/v1.5)，或者选择它的汉化版 [OpenVR-SpaceCalibrator-CN](https://github.com/Hrenact/OpenVR-SpaceCalibrator-CN/releases/tag/v1.5.1)。此教程使用汉化版来演示。
 
 打开 SteamVR ，确认你的头戴设备已连接至 SteamVR 。OpenVR-SpaceCalibrator 会跟随 SteamVR 一并启动，如果没有，请手动双击桌面的快捷方式来开启。
 
@@ -97,6 +130,9 @@ HTC 1.0 基站在除了供电接口外，还有一个特殊的接口为“同步
 │  校准速度     〇  快          〇 慢            〇 超慢        │
 └─────────────────────────────────────────────────────────────┘
 ```
+
+> [!NOTE]
+> 初次安装的 OpenVR-SpaceCalibrator 只会显示“开始校准”选项，你需要进行一次手动校准才能解锁其它选项。
 
 # 手动校准
 
@@ -189,16 +225,19 @@ HTC 1.0 基站在除了供电接口外，还有一个特殊的接口为“同步
 
 # 额外推荐
 
-这里会陈列一些对混搭玩家有用的商品链接。如果无法访问，请粘贴到手机浏览器后进行访问。
+这里会陈列一些对混搭玩家有用的商品，仅供参考。它们都是使用手机浏览器访问并跳转至第三方应用的链接。
 
-- USB 拓展坞：
+- USB 拓展坞
 https://m.tb.cn/h.gkkbKa9mUFLfbu9?tk=22ws33ZTMlB
 
-- 多设备充电坞：
+- USB 充电坞
 https://m.tb.cn/h.gPQ2Lsg3TPBAPKb?tk=lw7b33Z5oLx
 
-- Type-C 充电线：
+- Type-C 充电线
 https://m.tb.cn/h.gPQV8uuwNlWcMFA?tk=O3BX33ZSYoj
 
-- 一体机 Tracker 固定底座：
+- USB 2.0 延长线
+https://m.tb.cn/h.gkDqv36zXUVJ4J7?tk=UAMx330zbQw
+
+- 一体机 Tracker 固定底座
 https://m.tb.cn/h.gkke7vI?tk=JAch33ZQ0IQ
