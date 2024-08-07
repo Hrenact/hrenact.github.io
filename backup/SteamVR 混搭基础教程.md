@@ -40,6 +40,9 @@ HTC 1.0 基站在除了供电接口外，还有一个特殊的接口为“同步
 这里将使用字符粗略的演示基站如何安装。其中，箭头代表了基站的朝向。
 
 房间规模：
+
+`Gmeek-html<img src="https://github.com/Hrenact/hrenact.github.io/blob/main/static/%E6%88%BF%E9%97%B4%E8%A7%84%E6%A8%A1.drawio.png">`
+
 ```
 ┌──────────────┐
 门           ↙│
