@@ -66,19 +66,7 @@ HTC 1.0 基站在除了供电接口外，还有一个特殊的接口为“同步
 
 Controller Pairing：
 
-```
-选择您的控制器类型
-
-┌──────────────┐       ┌──────────────┐
-│     指虎     │       │  Vive 控制器  │
-└──────────────┘       └──────────────┘
-Valve Index 控制器      HTC Vive 控制器
-
-┌──────────────┐       ┌──────────────┐
-│   Tracker    │       │  Ink Pilot   │
-└──────────────┘       └──────────────┘
-HTC Vive追踪器          罗技 VR Ink Pilot Edition
-```
+`Gmeek-html<img src="https://hrenact.github.io/AddController.png">`
 
 选择对应的设备，按照提示完成配对，成功后将在 SteamVR 界面出现你刚刚添加的设备。
 
