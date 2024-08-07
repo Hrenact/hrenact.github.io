@@ -237,17 +237,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 <h1>手动校准</h1>
 <p>手动校准需要将“主设备”选择为一体机的左或者右手柄，并将“副设备”选择为对应的 Lighthouse PCVR 的左或者右指虎手柄。</p>
-<p>以 Quest 2 和 Pico 4 举例：</p>
-<pre class="notranslate"><code class="notranslate">┌────────────────────────────────────────────────────────────────────────────────┐
-│  主设备  oculus                      ▼   目标设备  lighthouse                ▼  │
-│  Oculus Quest2 (Left Controller)         Knuckles Left                         │
-└────────────────────────────────────────────────────────────────────────────────┘
-
-┌────────────────────────────────────────────────────────────────────────────────┐
-│  主设备  pico                        ▼   目标设备  lighthouse                ▼  │
-│  Pico Phoenix Controller right           Knuckles Right                        │
-└────────────────────────────────────────────────────────────────────────────────┘
-</code></pre>
+<p>以 Pico 4 举例：</p>
+<p><img src="https://hrenact.github.io/P4Left.png"></p>
+<p>或</p>
+<p><img src="https://hrenact.github.io/P4Right.png"></p>
 <p>选择合适的“校准速度”，此选项仅影响手动校准时校准的时长。越长的校准时长意味着越多的校准数据，也意味着越准确和不容易发生偏移。</p>
 <p>将你选择的设备握紧在一起，确保在校准过程中它们的相对位置不会发生偏移。</p>
 <p>单击“开始校准”，尽可能的移动和旋转你选择的设备（例如：画8字），确保软件获取到足够的位置信息。</p>
@@ -256,13 +249,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p><p>如果你拥有连续校准用 Tracker，可以使用连续校准的设备方案进行手动校准。注意：未佩戴的头显有可能会进入睡眠模式并关闭追踪，你需要在佩戴头显的情况下进行校准。</p>
 </div>
 <p>在校准成功后，将在进度条下方出现“Finshed calibration, profile saved”，单击下方的“Close”按钮来返回主界面。</p>
-<pre class="notranslate"><code class="notranslate">┌────────────────────────────────────────────────────────────────────────────────┐
-│  100%========================================================================  │
-│  Finshed calibration, profile saved                                            │
-│                                                                                │
-│                                       Close                                    │
-└────────────────────────────────────────────────────────────────────────────────┘
-</code></pre>
+<p><img src="https://hrenact.github.io/Finished.png"></p>
 <p>此时，你的 PCVR 设备在 SteamVR 界面的位置将会与现实位置同步。</p>
 <div class="markdown-alert markdown-alert-warning"><p class="markdown-alert-title"><svg class="octicon octicon-alert mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Warning</p><p>如果未出现“Finshed calibration, profile saved”而是其它字样，则为校准失败，你应该点击“Close”按钮并重新校准。</p>
 </div>
