@@ -41,7 +41,7 @@ HTC 1.0 基站在除了供电接口外，还有一个特殊的接口为“同步
 
 房间规模：
 
-`Gmeek-html<img src="https://github.com/Hrenact/hrenact.github.io/blob/main/static/%E6%88%BF%E9%97%B4%E8%A7%84%E6%A8%A1.drawio.png">`
+`Gmeek-html<img src="hrenact.github.io/RoomMode.drawio.png">`
 
 ```
 ┌──────────────┐
