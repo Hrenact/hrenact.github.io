@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Hrenact 的博客</title><link>https://hrenact.github.io</link><description>用于存放一些有用的信息，欢迎阅览；如果在查找咖啡厅相关，请搜索“【中文咖啡厅】”。</description><copyright>Hrenact 的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/113127592?v=4</url><title>avatar</title><link>https://hrenact.github.io</link></image><lastBuildDate>Sun, 11 Aug 2024 08:32:21 +0000</lastBuildDate><managingEditor>Hrenact 的博客</managingEditor><ttl>60</ttl><webMaster>Hrenact 的博客</webMaster><item><title>SteamVR 混搭基础教程</title><link>https://hrenact.github.io/post/SteamVR%20-hun-da-ji-chu-jiao-cheng.html</link><description># 准备工作&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Hrenact 的博客</title><link>https://hrenact.github.io</link><description>用于存放一些有用的信息，欢迎阅览；如果在查找咖啡厅相关，请搜索“【中文咖啡厅】”。</description><copyright>Hrenact 的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/113127592?v=4</url><title>avatar</title><link>https://hrenact.github.io</link></image><lastBuildDate>Sun, 11 Aug 2024 09:37:25 +0000</lastBuildDate><managingEditor>Hrenact 的博客</managingEditor><ttl>60</ttl><webMaster>Hrenact 的博客</webMaster><item><title>SteamVR 混搭基础教程</title><link>https://hrenact.github.io/post/SteamVR%20-hun-da-ji-chu-jiao-cheng.html</link><description># 一、准备工作&#13;
 &#13;
 - 至少一个 HTC 1.0 / 2.0 基站（推荐两个）&#13;
 - 你想要混搭的 PCVR 设备以及对应数量的接收器&#13;
 - 软件 OpenVR-SpaceCalibrator 或 OpenVR-SpaceCalibrator-CN&#13;
 - 连续校准用 HTC 1.0 / 2.0 / 3.0 Tracker 或 N7R Tundra Tracker（一个，可选）&#13;
 &#13;
-# 基站兼容&#13;
+# 二、基站兼容性&#13;
 &#13;
 基站版本 | HTC 1.0 Traker | HTC 2.0 Traker | HTC 3.0 Traker | N7R Tundra Tracker | Index Knuckle 指虎 | HTC Vive 手柄 1.0 | HTC Vive 手柄 2.0&#13;
 -- | -- | -- | -- | -- | -- | -- | --&#13;
