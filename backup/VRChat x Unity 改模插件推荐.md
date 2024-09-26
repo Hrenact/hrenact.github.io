@@ -13,6 +13,8 @@ Github：https://github.com/bdunderscore/modular-avatar
 
 Booth：https://hitsub.booth.pm/items/5409262
 
+`Gmeek-html<img src="https://booth.pximg.net/aca94d0f-a75c-4f97-bd6f-16a1e90e2b1f/i/5409262/82f761e1-ba8c-4c5c-99ea-7aa396f4458d_base_resized.jpg" width="40%" height="auto" >`
+
 # Make It MMD
 为没有 MMD 形态键的模型手动指定形态键样式，并在上传时自动添加。
 
