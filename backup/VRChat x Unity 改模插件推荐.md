@@ -22,7 +22,7 @@ Booth：https://hitsub.booth.pm/items/5409262
 
 Booth：https://eni.booth.pm/items/5530958
 
-`Gmeek-html<img src="https://booth.pximg.net/aca94d0f-a75c-4f97-bd6f-16a1e90e2b1f/i/5409262/82f761e1-ba8c-4c5c-99ea-7aa396f4458d_base_resized.jpg" width="40%" height="auto" >`
+`Gmeek-html<img src="https://booth.pximg.net/eb7926a9-74ca-4ff7-b9e1-d80eb36e0aae/i/5530958/6530be03-0f82-4e1a-8ef3-f23646f27dc7_base_resized.jpg" width="40%" height="auto" >`
 
 # Avatar Optimizer
 一系列对优化模型有帮助的 Unity 脚本集合。例如：减面，移除形态键，合并网格等。
