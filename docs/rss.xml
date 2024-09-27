@@ -1,5 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Hrenact 的博客</title><link>https://hrenact.github.io</link><description>用于存放一些有用的信息，欢迎阅览；如果在查找咖啡厅相关，请搜索“【中文咖啡厅】”。</description><copyright>Hrenact 的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/113127592?v=4</url><title>avatar</title><link>https://hrenact.github.io</link></image><lastBuildDate>Thu, 26 Sep 2024 11:01:11 +0000</lastBuildDate><managingEditor>Hrenact 的博客</managingEditor><ttl>60</ttl><webMaster>Hrenact 的博客</webMaster><item><title>CoffeeCubeDream</title><link>https://hrenact.github.io/post/CoffeeCubeDream.html</link><description># 《咖啡方块梦》&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Hrenact 的博客</title><link>https://hrenact.github.io</link><description>用于存放一些有用的信息，欢迎阅览；如果在查找咖啡厅相关，请搜索“【中文咖啡厅】”。</description><copyright>Hrenact 的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/113127592?v=4</url><title>avatar</title><link>https://hrenact.github.io</link></image><lastBuildDate>Fri, 27 Sep 2024 16:46:34 +0000</lastBuildDate><managingEditor>Hrenact 的博客</managingEditor><ttl>60</ttl><webMaster>Hrenact 的博客</webMaster><item><title>BlendShapeEditor</title><link>https://hrenact.github.io/post/BlendShapeEditor.html</link><description># 简述 📕&#13;
+&#13;
+这是 Unity 编辑器拓展脚本 https://hyular.booth.pm/items/4662982 的二次分发版本，在作者以及他人的帮助下我对原始脚本进行了如下修改以使其更适用于 VRChat Avatar 项目：&#13;
+&#13;
+- 修正工具栏位置 `Tool/BlendShapeEditor` 为 `Tools/BlendShapeEditor` ；&#13;
+- 汉化脚本文本；&#13;
+- 扩大 `Morph n` 与并排 UI 之间的间距；&#13;
+- 为每项功能下方添加功能概括；&#13;
+- 移除进行某些操作时 Blendshapes 的值会强制归零的行为;&#13;
+- 添加初次打开窗口时的兼容性警告弹窗。</description><guid isPermaLink="true">https://hrenact.github.io/post/BlendShapeEditor.html</guid><pubDate>Fri, 27 Sep 2024 16:46:10 +0000</pubDate></item><item><title>CoffeeCubeDream</title><link>https://hrenact.github.io/post/CoffeeCubeDream.html</link><description># 《咖啡方块梦》&#13;
 &#13;
 __投出你的方块，设计你的咖啡厅，让创意落地成真！__&#13;
 &#13;
