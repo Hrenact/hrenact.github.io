@@ -22,7 +22,7 @@
 - 单击文本框即可重命名 Blendshape ；
 - 单击 Blendshape 列表底部的移除按钮 `-` 即可移除选中的 Blendshape ；
 
-## 排序 & 重命名
+## 创建
 
 `Gmeek-html<img src="https://hrenact.github.io/BlendShapeEditor/BlendShapeEditor2.png">`
 
