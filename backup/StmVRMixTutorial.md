@@ -16,8 +16,10 @@
 HTC 1.0 基站 | √ | √ | √ | √ | √ | √ | √
 HTC 2.0 基站 | × | √ | √ | √ | √ | × | √
 
-> [!CAUTION]
-> 虽然 N7R Tundra Tracker 在官网标明支持 HTC 1.0 基站，但是这里的支持仅限于能被基站识别。要达到稳定的追踪效果需要非常苛刻的条件，慎重考虑！
+注意：HTC 1.0 基站包含两个版本，它们可以混用。根据红外灯的数量，其一为 15 灯版本，生产年份较早，对一体机手柄干扰较大；其二为 9 灯版本，生产年份较新，更为推荐。见下方图示。
+
+`Gmeek-html<img src="https://hrenact.github.io/StmVRMix/15-9_Light.png">`
+*左侧为 15 灯版本，右侧为 9 灯版本。图片来自：老敖*
 
 # 三、设备常见规格
 
@@ -28,7 +30,7 @@ HTC 2.0 基站 | 1/4 英寸螺丝口 | 底面 / 背面 | DC 12V 2.5A 5.5*1.25mm 
 HTC 1.0 Traker | 1/4 英寸螺丝口 | 底面 | Micro USB
 HTC 2.0 Traker | 1/4 英寸螺丝口 | 底面 | Micro USB
 HTC 3.0 Traker | 1/4 英寸螺丝口 | 底面 | Type-C
-N7R Tundra Tracker | 可更换式 1/4 英寸螺丝口 | 底面 | Type-C
+N7R Tundra Tracker |  1/4 英寸螺丝口（选配） | 底面 | Type-C
 Index Knuckle 指虎 | 无 | 无 | Type-C
 HTC Vive 手柄 1.0 | 无 | 无 | Micro USB
 HTC Vive 手柄 2.0 | 无 | 无 | Micro USB
@@ -38,19 +40,23 @@ HTC Vive 手柄 2.0 | 无 | 无 | Micro USB
 
 # 四、基站规格
 
-基站版本 | 照射距离（单个 / 多个） | 最大数量 | 注意事项
+基站版本 | 照射距离（单个 / 多个） | 数量上限 | 注意事项
 -- | -- | -- | --
 1.0 | 3.5 米 / 5 米 | 2 个 | 安装 2 个基站时，需确保基站能相互“看见”
-2.0 | 7 米 / 10 米 | 4 个 | 避免安装环境出现强光源
+2.0 | 7 米 / 10 米 | 见下方 | 暂无
 
-> [!WARNING]
-> HTC 1.0 基站对于最近距离的要求为 0.5 米，小于此距离的 Lighthouse 设备有可能会造成无法识别的问题。
+一个空间内最多可同时识别 4 个 2.0 基站，总共最多 16 个。如果没有特殊需求，安装 4 个 2.0 基站即可满足大部分需求。
 
 # 五、配件注意事项
 
-HTC 1.0 基站在除了供电接口外，还有一个特殊的接口为“同步线接口”。在特殊情况导致基站无法同步时，可以通过在基站之间连接“同步数据线”来恢复同步。
+HTC 1.0 基站在除了供电接口外，还有一个特殊的接口为“同步线接口”。在特殊情况导致基站无法同步时，可以通过在基站之间连接“同步线”来恢复同步。亦可使用同步线来提高定位准确性。
 
-购买除了基站以外的其它 Lighthouse 设备时，需注意是否包含接收器。如不包含，你需要单独购买或者使用数据线连接设备与电脑才能定位。
+`Gmeek-html<img src="https://hrenact.github.io/StmVRMix/sync_cable.png">`
+*同步线 Sync Cable。图片来自：Vosentech*
+
+购买除了基站以外的其它 LightHouse 设备时，需注意是否包含接收器。如不包含，你需要单独购买或者使用数据线连接设备与电脑才能定位。
+
+接收器可以与任意一个 LightHouse 设备配对，且仅能配对一个。例如：如果你想要混搭一对指虎手柄和 3 个 HTC 3.0 Tracker 以及 1 个 N7R Tundra Tracker，则你需要 2+3+1 个接收器，也就是 6 个。
 
 # 六、安装基站
 
@@ -72,22 +78,22 @@ HTC 1.0 基站在除了供电接口外，还有一个特殊的接口为“同步
 
 - 将基站照射范围覆盖游戏区域
 - 将基站安装在房间高处并向下倾斜 25度 至 35度
-- 避免基站照射范围出现高反射率物体（例：镜子）
-
-在你安装好基站并开启 SteamVR 后，基站不会显示在 SteamVR 界面中。当在基站照射范围内出现已配对 / 使用数据线连接至电脑的 Lighthouse 设备时，基站将自动显示。
+- 避免基站照射范围出现高反射率物体（例如：镜子）
 
 > [!WARNING]
-> 在基站通电时请勿大幅度移动或磕碰基站，这可能会导致基站损坏！
+> HTC 1.0 基站对于最近距离的要求为 0.5 米，小于此距离的 LightHouse 设备有可能会造成无法识别的问题，安装时请预留足够的空间。
+
+在你安装好基站并开启 SteamVR 后，基站不会显示在 SteamVR 界面中。当在基站照射范围内出现已配对或使用数据线连接至电脑的 LightHouse 设备时，基站将自动显示在 SteamVR 界面中。
 
 # 七、设置基站频道
 
 ## 1. HTC 1.0 基站
 
-- 不使用同步数据线：
-按下定位器背面的频道按钮，将一个定位器设为频道​ b ，另一个设为频道​ c 。
+- 不使用同步线：
+按下基站背面的频道按钮，将其中一个设为频道​ b ，另一个设为频道​ c 。
 
-- 使用同步数据线：
-按下定位器背面的频道按钮，将一个定位器设为频道 ​‍A ，另一个设为频道 b 。
+- 使用同步线：
+按下基站背面的频道按钮，将其中一个设为频道 ​‍A ，另一个设为频道 b 。
 
 你可以在基站正面看到对应的频道模式指示灯亮起。亦或者将鼠标移动至 SteamVR 的基站图标上并稍作等待，即可在浮现的窗口中查看基站当前频道。
 
@@ -100,11 +106,11 @@ HTC 1.0 基站在除了供电接口外，还有一个特殊的接口为“同步
 在基站电源接口的上方，有一个小孔，作用为手动切换频道。使用手机卡针或者掰直的回形针捅入小孔，在触底后短按一下，此时就已将完成手动切换基站频道。
 
 > [!NOTE]
-> 请在基站通电的情况下进行更换频道的操作。建议你一手扶 / 拿好基站，一手更换频道，避免造成不必要的损失！
+> 请在基站通电的情况下进行更换频道的操作。建议你一手扶 / 拿好基站，一手更换频道，避免造成不必要的损失，即使这很困难！
 
-# 八、添加 Lighthouse 设备
+# 八、添加 LightHouse 设备
 
-将接收器插入电脑的 USB 2.0 或更高规模的 USB 接口，并启动 SteamVR。
+将接收器插入电脑的 USB 接口，并启动 SteamVR。
 
 点击 SteamVR 左上角的菜单，打开下拉菜单。将鼠标移动至“设备”，稍做等待，在浮现的窗口中点击“配对控制器”，弹出“选择您的控制器类型”窗口。
 
@@ -125,7 +131,7 @@ Controller Pairing：
 > [!NOTE]
 > 你可以先只添加一个 Tracker ，方便在连续校准章节中快速找到需要作为连续校准用的目标设备。
 
-# 九、校准 Lighthouse 设备
+# 九、校准 LightHouse 设备
 
 ## 1. 安装校准软件
 
@@ -144,9 +150,9 @@ Controller Pairing：
 
 ## 2. 手动校准
 
-手动校准需要将“主设备”选择为一体机的左或者右手柄，并将“副设备”选择为对应的 Lighthouse PCVR 的左或者右指虎手柄。
+手动校准需要将“主设备”选择为一体机的左或者右手柄，并将“副设备”选择为对应的 LightHouse PCVR 的左或右手柄。
 
-以 Pico 4 举例：
+以 Pico 4 和指虎举例：
 
 `Gmeek-html<img src="https://hrenact.github.io/P4Left.png">`
 
@@ -154,31 +160,28 @@ Controller Pairing：
 
 `Gmeek-html<img src="https://hrenact.github.io/P4Right.png">`
 
-选择合适的“校准速度”，此选项仅影响手动校准时校准的时长。越长的校准时长意味着越多的校准数据，也意味着位置越准确。
+选择合适的“校准速度”，此选项仅影响手动校准时校准的时长。更长的校准时长意味着获得更多的校准数据，也意味着位置越准确。
 
-将你选择的设备握紧在一起，确保在校准过程中它们的相对位置不会发生偏移。
+将你选择的设备握紧在一起，确保在校准过程中它们的相对位置不会发生偏移，就像是用强力胶粘起来了一样。
 
-单击“开始校准”，尽可能的移动和旋转你选择的设备（例如：画8字），确保软件获取到足够的位置信息。
+单击“开始校准”，尽可能的移动和旋转你选择的设备（例如：画 8 字），确保软件获取到足够的位置信息。
 
 在进度条未达到 100% 之前，你应该一直保持着握紧并移动和旋转设备的状态。
-
-> [!NOTE]
-> 如果你拥有连续校准用 Tracker，可以使用连续校准的设备方案进行手动校准。注意：未佩戴的头显有可能会进入睡眠模式并关闭追踪，你需要在佩戴头显的情况下进行校准。
 
 在校准成功后，将在进度条下方出现“Finshed calibration, profile saved”，单击下方的“Close”按钮来返回主界面。
 
 `Gmeek-html<img src="https://hrenact.github.io/Finished.png">`
 
-此时，你的 PCVR 设备在 SteamVR 界面的位置将会与现实位置同步。
+此时，你的 LightHouse 设备在 SteamVR 界面的位置将会与现实位置同步。
 
 > [!WARNING]
-> 如果未出现“Finshed calibration, profile saved”或出现其它文本，则为校准失败，你应该点击“Close”按钮并重新校准。
+> 如果出现了非“Finshed calibration, profile saved”以外的其它文本，则为校准失败，你应该点击“Close”按钮并重新校准。
 
 ## 3. 连续校准
 
-使用连续校准方案时，VRChat 会默认打开 FBT 支持模式。如有需要，你可以在小设置菜单中关闭全身追踪。
+使用连续校准方案时，VRChat 会默认打开 FBT 支持模式。如有需要，你可以在设置中关闭全身追踪。
 
-连续校准需要将“主设备”选择为一体机的头显，并将“副设备”选择为固定在头戴式设备上的 Tracker。
+连续校准需要将“主设备”选择为一体机的头显，并将“副设备”选择为固定在头显上的 Tracker。
 
 以 Pico 4 举例：
 
@@ -188,7 +191,7 @@ Controller Pairing：
 
 连续校准主要界面：
 
-`Gmeek-html<img src="https://hrenact.github.io/AlwaysCalibrator.png">`
+`Gmeek-html<img src="https://hrenact.github.io/StmVRMix/AlwaysCalibrator.png">`
 
 简单介绍一下我们需要用到的功能：
 
@@ -201,23 +204,17 @@ Controller Pairing：
 勾选后，带上头显并在房间内走动，软件将收集数据并将 SteamVR LightHouse 设备位置与现实位置同步。
 
 > [!NOTE]
-> 目标设备的 Tracker 名称会因实际型号而异，演示型号为 HTC 3.0 Traker 。如果你怕选错设备，可以暂时只开启连续校准用 Tracker ，配置好连续校准参数后再逐一开启其它设备。
+> 目标设备的 Tracker 名称会因实际型号而异，演示型号为 HTC 3.0 Traker。如果你怕选错设备，可以暂时只开启连续校准用 Tracker，配置好连续校准参数后再逐一开启其它设备。
 
-# 十、额外设备推荐
+# 十、参考资料
 
-这里会陈列一些对混搭玩家有用的商品，仅供参考。它们都是使用手机浏览器访问并跳转至第三方应用的链接。
+vive tracker 混搭全身追踪教学：
+https://docs.vrcd.org.cn/books/vive-tracker
 
-- USB 拓展坞
-https://m.tb.cn/h.gkkbKa9mUFLfbu9?tk=22ws33ZTMlB
+VIVE Pro 2 Support > Base stations：
+https://www.vive.com/eu/support/vive-pro2/category_howto/base-stations.html
 
-- USB 充电坞
-https://m.tb.cn/h.gPQ2Lsg3TPBAPKb?tk=lw7b33Z5oLx
+HTC VIVE Sync cable explanation and tutorial：
+https://www.youtube.com/watch?v=sr-Vg2Z3HTE
 
-- Type-C 充电线
-https://m.tb.cn/h.gPQV8uuwNlWcMFA?tk=O3BX33ZSYoj
-
-- USB 2.0 延长线
-https://m.tb.cn/h.gkDqv36zXUVJ4J7?tk=UAMx330zbQw
-
-- 一体机 Tracker 固定底座
-https://m.tb.cn/h.gkke7vI?tk=JAch33ZQ0IQ
+以及各大群聊中愿意为我解答疑惑的沙雕网友~❤
