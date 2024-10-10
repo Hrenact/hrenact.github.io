@@ -62,7 +62,7 @@ HTC 1.0 基站在除了供电接口外，还有一个特殊的接口为“同步
 
 接收器可以与任意一个 LightHouse 设备配对，且仅能配对一个。例如：如果你想要混搭一对指虎手柄和 3 个 HTC 3.0 Tracker 以及 1 个 N7R Tundra Tracker，则你需要 2+3+1 个接收器，也就是 6 个。
 
-`Gmeek-html<img src="https://hrenact.github.io/receivers.jpg" width="50%" height="auto" >`
+`Gmeek-html<img src="https://hrenact.github.io/receivers.png" width="50%" height="auto" >`
 *左三为玩家自制接收器，右一为 HTC 3.0 Tracker 原装接收器。图片来自：Hrenact*
 
 # 六、安装基站
