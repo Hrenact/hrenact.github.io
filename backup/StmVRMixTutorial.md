@@ -62,7 +62,7 @@ HTC 1.0 基站在除了供电接口外，还有一个特殊的接口为“同步
 
 接收器可以与任意一个 LightHouse 设备配对，且仅能配对一个。例如：如果你想要混搭一对指虎手柄和 3 个 HTC 3.0 Tracker 以及 1 个 N7R Tundra Tracker，则你需要 2+3+1 个接收器，也就是 6 个。
 
-`Gmeek-html<img src="https://hrenact.github.io/receivers.png" width="50%" height="auto" >`
+`Gmeek-html<img src="https://hrenact.github.io/StmVRMix/receivers.png" width="50%" height="auto" >`
 *左三为玩家自制接收器，右一为 HTC 3.0 Tracker 原装接收器。图片来自：Hrenact*
 
 # 六、安装基站
@@ -71,15 +71,15 @@ HTC 1.0 基站在除了供电接口外，还有一个特殊的接口为“同步
 
 房间规模：
 
-`Gmeek-html<img src="https://hrenact.github.io/RoomMode.drawio.png">`
+`Gmeek-html<img src="https://hrenact.github.io/StmVRMix/RoomMode.drawio.png">`
 
 或
 
-`Gmeek-html<img src="https://hrenact.github.io/RoomMode2.drawio.png">`
+`Gmeek-html<img src="https://hrenact.github.io/StmVRMix/RoomMode2.drawio.png">`
 
 客厅规模：
 
-`Gmeek-html<img src="https://hrenact.github.io/LivingroomMode.drawio.png">`
+`Gmeek-html<img src="https://hrenact.github.io/StmVRMix/LivingroomMode.drawio.png">`
 
 总之，我们按照以下几点摆放基站即可：
 
@@ -121,11 +121,11 @@ HTC 1.0 基站在除了供电接口外，还有一个特殊的接口为“同步
 
 点击 SteamVR 左上角的菜单，打开下拉菜单。将鼠标移动至 `设备`，稍做等待，在浮现的窗口中点击 `配对控制器`，弹出 `选择您的控制器类型` 窗口。
 
-`Gmeek-html<img src="https://hrenact.github.io/SteamVR.png">`
+`Gmeek-html<img src="https://hrenact.github.io/StmVRMix/SteamVR.png">`
 
 Controller Pairing：
 
-`Gmeek-html<img src="https://hrenact.github.io/AddController.png">`
+`Gmeek-html<img src="https://hrenact.github.io/StmVRMix/AddController.png">`
 
 选择对应的设备，按照提示完成配对，成功后将在 SteamVR 界面出现你刚刚添加的设备。
 
@@ -146,7 +146,7 @@ Controller Pairing：
 
 软件界面：
 
-`Gmeek-html<img src="https://hrenact.github.io/SpaceCalibratorCN.png">`
+`Gmeek-html<img src="https://hrenact.github.io/StmVRMix/SpaceCalibratorCN.png">`
 
 > [!NOTE]
 > 初次安装的 OpenVR-SpaceCalibrator 只会显示 `开始校准` 选项，你需要进行一次手动校准才能解锁其它选项。
@@ -157,11 +157,11 @@ Controller Pairing：
 
 以 Pico 4 和 Index Knuckle 指虎举例：
 
-`Gmeek-html<img src="https://hrenact.github.io/P4Left.png">`
+`Gmeek-html<img src="https://hrenact.github.io/StmVRMix/P4Left.png">`
 
 或
 
-`Gmeek-html<img src="https://hrenact.github.io/P4Right.png">`
+`Gmeek-html<img src="https://hrenact.github.io/StmVRMix/P4Right.png">`
 
 选择合适的 `校准速度`，此选项仅影响手动校准时校准的时长。更长的校准时长意味着获得更多的校准数据，也意味着位置越准确。
 
@@ -169,7 +169,7 @@ Controller Pairing：
 
 在校准成功后，将在进度条下方出现 `Finshed calibration, profile saved` ，单击下方的 `Close` 按钮来返回主界面。
 
-`Gmeek-html<img src="https://hrenact.github.io/Finished.png">`
+`Gmeek-html<img src="https://hrenact.github.io/StmVRMix/Finished.png">`
 
 此时，你的 LightHouse 设备在 SteamVR 界面的位置将会与现实位置同步。
 
@@ -184,7 +184,7 @@ Controller Pairing：
 
 以 Pico 4 和  HTC 3.0 Traker 举例：
 
-`Gmeek-html<img src="https://hrenact.github.io/P4Tracker.png">`
+`Gmeek-html<img src="https://hrenact.github.io/StmVRMix/P4Tracker.png">`
 
 点击“连续校准”来进入到连续校准界面。
 
