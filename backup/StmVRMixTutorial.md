@@ -1,4 +1,4 @@
-# SteamVR 混搭基础教程
+# 零、文章前言
 
 此教程将教会你如何混搭一体机与 LightHouse 基站设备，并列出一些常见的设备规格。如有错误，欢迎评论区指出。
 
@@ -18,7 +18,7 @@ HTC 2.0 基站 | × | √ | √ | √ | √ | × | √
 
 注意：HTC 1.0 基站包含两个版本，它们可以混用。根据红外灯的数量，其一为 15 灯版本，生产年份较早，对一体机手柄干扰较大；其二为 9 灯版本，生产年份较新，更为推荐。见下方图示。
 
-`Gmeek-html<img src="https://hrenact.github.io/StmVRMix/15-9_Light.png">`
+`Gmeek-html<img src="https://hrenact.github.io/StmVRMix/15-9_Light.png" width="50%" height="auto" >`
 *左侧为 15 灯版本，右侧为 9 灯版本。图片来自：老敖*
 
 # 三、设备常见规格
@@ -45,18 +45,25 @@ HTC Vive 手柄 2.0 | 无 | 无 | Micro USB
 1.0 | 3.5 米 / 5 米 | 2 个 | 安装 2 个基站时，需确保基站能相互“看见”
 2.0 | 7 米 / 10 米 | 见下方 | 暂无
 
-一个空间内最多可同时识别 4 个 2.0 基站，总共最多 16 个。如果没有特殊需求，安装 4 个 2.0 基站即可满足大部分需求。
+一个空间内最多可同时识别 4 个 2.0 基站，总共最多 16 个。如果没有特殊需求，安装 4 个 2.0 基站即可满足大部分情况。
 
 # 五、配件注意事项
 
+## 同步线
+
 HTC 1.0 基站在除了供电接口外，还有一个特殊的接口为“同步线接口”。在特殊情况导致基站无法同步时，可以通过在基站之间连接“同步线”来恢复同步。亦可使用同步线来提高定位准确性。
 
-`Gmeek-html<img src="https://hrenact.github.io/StmVRMix/sync_cable.png">`
+`Gmeek-html<img src="https://hrenact.github.io/StmVRMix/sync_cable.png" width="50%" height="auto" >`
 *同步线 Sync Cable。图片来自：Vosentech*
+
+## 接收器
 
 购买除了基站以外的其它 LightHouse 设备时，需注意是否包含接收器。如不包含，你需要单独购买或者使用数据线连接设备与电脑才能定位。
 
 接收器可以与任意一个 LightHouse 设备配对，且仅能配对一个。例如：如果你想要混搭一对指虎手柄和 3 个 HTC 3.0 Tracker 以及 1 个 N7R Tundra Tracker，则你需要 2+3+1 个接收器，也就是 6 个。
+
+`Gmeek-html<img src="https://hrenact.github.io/receivers.jpg">`
+*左三为玩家自制接收器，右一为 HTC 3.0 Tracker 原装接收器。图片来自：Hrenact*
 
 # 六、安装基站
 
@@ -87,7 +94,7 @@ HTC 1.0 基站在除了供电接口外，还有一个特殊的接口为“同步
 
 # 七、设置基站频道
 
-## 1. HTC 1.0 基站
+## HTC 1.0 基站
 
 - 不使用同步线：
 按下基站背面的频道按钮，将其中一个设为频道​ b ，另一个设为频道​ c 。
@@ -97,7 +104,7 @@ HTC 1.0 基站在除了供电接口外，还有一个特殊的接口为“同步
 
 你可以在基站正面看到对应的频道模式指示灯亮起。亦或者将鼠标移动至 SteamVR 的基站图标上并稍作等待，即可在浮现的窗口中查看基站当前频道。
 
-## 2. HTC 2.0 基站
+## HTC 2.0 基站
 
 对于 HTC 2.0 基站，SteamVR 会自动设置基站的频道。如果你的 LightHouse 设备出现频繁丢追或方位错误的状况，则有可能遇到了频道冲突的情况。
 
@@ -112,7 +119,7 @@ HTC 1.0 基站在除了供电接口外，还有一个特殊的接口为“同步
 
 将接收器插入电脑的 USB 接口，并启动 SteamVR。
 
-点击 SteamVR 左上角的菜单，打开下拉菜单。将鼠标移动至“设备”，稍做等待，在浮现的窗口中点击“配对控制器”，弹出“选择您的控制器类型”窗口。
+点击 SteamVR 左上角的菜单，打开下拉菜单。将鼠标移动至 `设备`，稍做等待，在浮现的窗口中点击 `配对控制器`，弹出 `选择您的控制器类型` 窗口。
 
 `Gmeek-html<img src="https://hrenact.github.io/SteamVR.png">`
 
@@ -122,18 +129,14 @@ Controller Pairing：
 
 选择对应的设备，按照提示完成配对，成功后将在 SteamVR 界面出现你刚刚添加的设备。
 
-你应该每次只插入一个接收器并配对一个设备，在配对完成后长按设备的系统键直到LED灯熄灭，意味着设备已关机。此时再插入一个接收器并配对新设备，重复此过程直到完成所有设备的添加。
-
-如果你使用的是 Tundra SteamVR 通用多合一接收器（Tundra SteamVR Super Wireless Dongle），建议你只配对“接收器最大配对数量 - 1”个数量。
-
-在配对或配对完成后选择“配对另一个控制器”时，如果出现“请关闭您现有控制器中的一个”字样，请检查是否插入了数量充足的接收器并确保接口牢固。如果不起作用，请转到 SteamVR x.x.x → 开发者 → 开发者设置 并点击“移除所有 SteamVR USB 设备”并从头开始重新配对。
+请记住，一个接收器只能配对一个 LightHouse 设备。在配对或配对完成后选择 `配对另一个控制器` 时，如果出现 `请关闭您现有控制器中的一个` 字样，请检查是否插入了数量充足的接收器并确保接口牢固。如果不起作用，请按照下方图示打开 `开发者设置` 并点击 `移除所有 SteamVR USB 设备` 来从头开始重新配对。
 
 > [!NOTE]
 > 你可以先只添加一个 Tracker ，方便在连续校准章节中快速找到需要作为连续校准用的目标设备。
 
 # 九、校准 LightHouse 设备
 
-## 1. 安装校准软件
+## 安装校准软件
 
 下载并安装软件 [OpenVR-SpaceCalibrator](https://github.com/hyblocker/OpenVR-SpaceCalibrator/releases/tag/v1.5)，或者选择它的汉化版 [OpenVR-SpaceCalibrator-CN](https://github.com/Hrenact/OpenVR-SpaceCalibrator-CN/releases/tag/v1.5.1)。此教程使用汉化版来演示。
 
@@ -146,13 +149,13 @@ Controller Pairing：
 `Gmeek-html<img src="https://hrenact.github.io/SpaceCalibratorCN.png">`
 
 > [!NOTE]
-> 初次安装的 OpenVR-SpaceCalibrator 只会显示“开始校准”选项，你需要进行一次手动校准才能解锁其它选项。
+> 初次安装的 OpenVR-SpaceCalibrator 只会显示 `开始校准` 选项，你需要进行一次手动校准才能解锁其它选项。
 
-## 2. 手动校准
+## 手动校准
 
-手动校准需要将“主设备”选择为一体机的左或者右手柄，并将“副设备”选择为对应的 LightHouse PCVR 的左或右手柄。
+手动校准需要将 `主设备` 选择为一体机的左或者右手柄，并将 `副设备` 选择为对应的 LightHouse 左或右手柄。
 
-以 Pico 4 和指虎举例：
+以 Pico 4 和 Index Knuckle 指虎举例：
 
 `Gmeek-html<img src="https://hrenact.github.io/P4Left.png">`
 
@@ -160,30 +163,26 @@ Controller Pairing：
 
 `Gmeek-html<img src="https://hrenact.github.io/P4Right.png">`
 
-选择合适的“校准速度”，此选项仅影响手动校准时校准的时长。更长的校准时长意味着获得更多的校准数据，也意味着位置越准确。
+选择合适的 `校准速度`，此选项仅影响手动校准时校准的时长。更长的校准时长意味着获得更多的校准数据，也意味着位置越准确。
 
-将你选择的设备握紧在一起，确保在校准过程中它们的相对位置不会发生偏移，就像是用强力胶粘起来了一样。
+握紧你选择的设备，就像是用强力胶固定在一起了一样，确保它们在校准过程中不会发生移位。点击 `开始校准` 后，通过移动和旋转设备（例如：画 8 字）提供足够的位置信息，直到进度条达到100%。
 
-单击“开始校准”，尽可能的移动和旋转你选择的设备（例如：画 8 字），确保软件获取到足够的位置信息。
-
-在进度条未达到 100% 之前，你应该一直保持着握紧并移动和旋转设备的状态。
-
-在校准成功后，将在进度条下方出现“Finshed calibration, profile saved”，单击下方的“Close”按钮来返回主界面。
+在校准成功后，将在进度条下方出现 `Finshed calibration, profile saved` ，单击下方的 `Close` 按钮来返回主界面。
 
 `Gmeek-html<img src="https://hrenact.github.io/Finished.png">`
 
 此时，你的 LightHouse 设备在 SteamVR 界面的位置将会与现实位置同步。
 
 > [!WARNING]
-> 如果出现了非“Finshed calibration, profile saved”以外的其它文本，则为校准失败，你应该点击“Close”按钮并重新校准。
+> 如果出现了非 `Finshed calibration, profile saved` 以外的其它文本，则为校准失败，你应该点击 `Close` 按钮并重新校准。
 
-## 3. 连续校准
+## 连续校准
 
 使用连续校准方案时，VRChat 会默认打开 FBT 支持模式。如有需要，你可以在设置中关闭全身追踪。
 
-连续校准需要将“主设备”选择为一体机的头显，并将“副设备”选择为固定在头显上的 Tracker。
+连续校准需要将“主设备”选择为一体机的头显，并将“副设备”选择为固定在头显上的 LightHouse 设备。
 
-以 Pico 4 举例：
+以 Pico 4 和  HTC 3.0 Traker 举例：
 
 `Gmeek-html<img src="https://hrenact.github.io/P4Tracker.png">`
 
@@ -199,12 +198,9 @@ Controller Pairing：
 - 隐藏混搭追踪器：勾选后将在 VRChat 校准全身追踪时隐藏此追踪器
 - 保持自动校准：勾选后软件将一直在后台校准设备位置
 
-对于普通用户，勾选“隐藏混搭追踪器”和“保持自动校准”即可。
+对于普通用户，勾选 `隐藏混搭追踪器` 即可。
 
-勾选后，带上头显并在房间内走动，软件将收集数据并将 SteamVR LightHouse 设备位置与现实位置同步。
-
-> [!NOTE]
-> 目标设备的 Tracker 名称会因实际型号而异，演示型号为 HTC 3.0 Traker。如果你怕选错设备，可以暂时只开启连续校准用 Tracker，配置好连续校准参数后再逐一开启其它设备。
+带上头显并在房间内走动，软件在收集一定的数据后，LightHouse 设备位置将会与现实位置同步。
 
 # 十、参考资料
 
